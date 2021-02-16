@@ -18,27 +18,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="overlay"></div>
   <header>
     <nav>
     <div class="logos">
     <img src="./images/logo.svg" alt="#" class="logo">
     </div>
-    <div class="burgers">
+    <div class="burgers mobile">
     <img class="hamburger" src="./images/icon-hamburger.svg" alt="">
     <img class="cross display-close" src="./images/icon-close.svg" alt="">
     </div>
+    <ul class="desktop nav-links-dk">
+      <li><a href="#" class="dk-a">Home</a></li>
+      <li><a href="#" class="dk-a">About</a></li>
+      <li><a href="#" class="dk-a">Contact</a></li>
+      <li><a href="#" class="dk-a">Blog</a></li>
+      <li><a href="#" class="dk-a">Careers</a></li>
+    </ul>
+    <button class="main-button desktop nav-btn">Request Invite</button>
     </nav>
   </header>
   <section class="hero-main">
     <div class="images">
-    <div class="bg-lines">
-      <img class="mobile bg-lines-mobile" src="./images/bg-intro-mobile.svg" alt="">
-      <img class="desktop" src="./images/bg-intro-desktop.svg" alt="">
-    </div>
-    <div class="bg-div">
-      <img src="./images/image-mockups.png" alt="" class="bg-mobile">
-    </div>
     </div>
     <div class="main-div">
       <h1 class="main-h1">
@@ -63,7 +63,7 @@
     </div>
     <div class="options">
       <div class="option">
-        <img src="./images/icon-online.svg" alt="">
+        <img class="option-img" src="./images/icon-online.svg" alt="">
         <h1 class="option-h1">
           Online Banking
         </h1>
@@ -71,7 +71,7 @@
         wherever you are in the world.</p>
       </div>
       <div class="option">
-        <img src="./images/icon-budgeting.svg" alt="">
+        <img class="option-img" src="./images/icon-budgeting.svg" alt="">
         <h1 class="option-h1">
           Simple Budgeting
         </h1>
@@ -79,7 +79,7 @@
         close to hitting your limits.</p>
       </div>
       <div class="option">
-        <img src="./images/icon-onboarding.svg" alt="">
+        <img class="option-img" src="./images/icon-onboarding.svg" alt="">
         <h1 class="option-h1">
         Fast Onboarding
         </h1>
@@ -87,7 +87,7 @@
         of your finances right away.</p>
       </div>
       <div class="option">
-        <img src="./images/icon-api.svg" alt="">
+        <img class="option-img" src="./images/icon-api.svg" alt="">
         <h1 class="option-h1">
           Open API
         </h1>
@@ -102,6 +102,7 @@
         Latest Articles
       </h1>
     </div>
+    <div class="all-articles">
     <div class="articles">
       <img class="images-article" src="./images/image-currency.jpg" alt="">
       <div class="bottom-article">
@@ -153,8 +154,10 @@
         It’s easy to request an invite through the site ...…</p>
       </div>
     </div>
+    </div>
   </section>
   <footer>
+    <div class="first-col">
     <div class="foot-image">
     <svg xmlns="http://www.w3.org/2000/svg" width="139" height="20">
       <defs>
@@ -182,6 +185,7 @@
       <img class="social-images" src="./images/icon-pinterest.svg" alt="">
       <img class="social-images" src="./images/icon-instagram.svg" alt="">
     </div>
+    </div>
     <div class="links-foot">
       <a href="#" class="foot-link">About Us</a>
       <a href="#" class="foot-link">Contact</a>
@@ -190,9 +194,17 @@
       <a href="#" class="foot-link">Support</a>
       <a href="#" class="foot-link">Privacy Policy</a>
     </div>
+    <div class="bottom-foot">
     <button class="main-button foot">Request Invite</button>
     <p class="copyright">© Easybank. All Rights Reserved</p>
+    </div>
   </footer>
+
+
+
+
+
+
   <div class="nav-menu">
     <a href="#" class="menu-links">Home</a>
     <a href="#" class="menu-links">About</a>
@@ -225,6 +237,7 @@
     Coded by <a href="#">Your Name Here</a>.
   </div>
   -->
+  <div class="overlay"></div>
   <script src="./js.js"></script>
 </body>
 </html>
